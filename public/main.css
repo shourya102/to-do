@@ -1,0 +1,63 @@
+.date {
+    backdrop-filter: blur(5px);
+    background: rgba(100, 100, 100, 0.1);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(35, 35, 35, 0.1);
+    width: 30%;
+    margin: auto;
+    color: #252525;
+}
+
+ul {
+    backdrop-filter: blur(5px);
+    background: rgba(100, 100, 100, 0.1);
+    width: 30%;
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    margin-top: 15%;
+    margin-left: 35%;
+    height: 30%;
+    padding: 30px;
+}
+
+ul li {
+    background-color: rgba(10, 10, 10, 0.1);
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 16px;
+    list-style-type: square;
+    list-style-position: inside;
+    color: darkred;
+}
+
+ul form {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+
+form input {
+    margin-left: 10px;
+    flex-basis: 400px;
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form button {
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    flex-basis: 50px;
+}
+
+body {
+    display: block;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(175, 175, 175) 100%);
+    align-items: center;
+    justify-content: center;
+}
+
